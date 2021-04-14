@@ -1,0 +1,22 @@
+<style>
+body {
+font family : lato;
+}
+
+  #box-container {
+    display: flex;
+    height: 1000px;
+    f
+  }
+  #box-2 {
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    
+  }
+</style>
+
+<div id="box-container">
+  <div id="box-2"></div>
+ 
+</div>
