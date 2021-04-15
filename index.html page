@@ -6,25 +6,31 @@
   </head>
 <body>
 <p>Click here to view more <a href="#">Heroine photos</a>.</p>
-<a href="#"><img src="https://www.google.com/search?q=pictures+of+a+spinderman&tbm=isch&ved=2ahUKEwjDzafOu__vAhWKxuAKHfyvDa0Q2-cCegQIABAA&oq=pictures+of+a+spinderman&gs_lcp=CgNpbWcQDDoECCMQJzoCCAA6BggAEAUQHlCOP1jce2DJlgFoAHAAeAGAAbcFiAH6KZIBC
-"alt="spinder man picture."></a>
+<a href="#"><img src="https://media.wired.com/photos/5963bb8f9a706f225866c776/master/w_2560%2Cc_limit/Spiderman-TopArt.jpg" alt="spinder man picture."></a>
 <p>Hobbies and Interests</p>
-<div>
      <ul>
     <li>reading novels</li>
     <li>researching about technology</li>
     <li>playing computer games</li>
      <li>listening to music</li>
   </ul>
-  
-  </div>
   <p>My favourite tv shows</p>
-  <p>my hobbies</p>
-  <div class="flexbox-container"
-       <div class="header"></div>
+  <ol>
+    <li>aircraft investigation</li>
+    <li>destroyed in seconds</li>
+    <li>still a mystery</li>
+  </ol>
+  <img src="https://images-na.ssl-images-amazon.com/images/I/81bVhJMw9CL._SX300_.jpg">
+  <p>Still a mystery is a reality show investigating about people who went missing and there remains(dead body) where never found</p>
+  <img src="https://upload.wikimedia.org/wikipedia/en/2/21/Destroyed_in_Seconds_title.jpg">
+  <p>Destroyed in second is are reality show.They  show us the disaster which caused by natural floods and volcanos</p>
+  <img src="https://images-na.ssl-images-amazon.com/images/I/71Pe61X6VGL._SY445_.jpghttps://images-na.ssl-images-amazon.com/images/I/71Pe61X6VGL._SY445_.jpg">
+  <p>Its investigate what exactly causes the plane to fall or get involved in a accident and its tells you more about plane parts which can never get damaged no matter how the plane get destroyed</p>
+  <p>I love to study coding because almost everthing is moving to fourth industrial revolution.Everything is computerised and runs through codes and programming.Being a woman with a technical skill you make a markin society also you can work everywhere in te world,from my research developers and programmers they don't stay long without jobs and they earn a good salary.</p>
+    <div class="flexbox-container"  
+<div class="header"></div>
    <div class="flexbox-item flexbox-item-2"></div>
   <div class="flexbox-item flexbox-item-3"></div>
   </div>
   </body>
-  
 </html>
