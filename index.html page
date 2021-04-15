@@ -1,20 +1,27 @@
 <!DOCTYPE html>
 <html>
   <head>
+  <link rel="stylesheet" href="style-css">
     <h1>Mitchel Rutendo Svisveni</h1>
   </head>
 <body>
+<p>Click here to view more <a href="#">Heroine photos</a>.</p>
 <a href="#"><img src="https://www.google.com/search?q=pictures+of+a+spinderman&tbm=isch&ved=2ahUKEwjDzafOu__vAhWKxuAKHfyvDa0Q2-cCegQIABAA&oq=pictures+of+a+spinderman&gs_lcp=CgNpbWcQDDoECCMQJzoCCAA6BggAEAUQHlCOP1jce2DJlgFoAHAAeAGAAbcFiAH6KZIBC
-"alt="spinder man picture"
+"alt="spinder man picture."></a>
 <p>Hobbies and Interests</p>
+<div>
      <ul>
     <li>reading novels</li>
     <li>researching about technology</li>
     <li>playing computer games</li>
      <li>listening to music</li>
   </ul>
+  
+  
+  </div>
+  <p>My favourite tv shows</p>
   <div class="flexbox-container"
-       <div class="flexbox-item flexbox-item-1"></div>
+       <div class="header"></div>
    <div class="flexbox-item flexbox-item-2"></div>
   <div class="flexbox-item flexbox-item-3"></div>
   </div>
