@@ -20,6 +20,7 @@
   
   </div>
   <p>My favourite tv shows</p>
+  <p>my hobbies</p>
   <div class="flexbox-container"
        <div class="header"></div>
    <div class="flexbox-item flexbox-item-2"></div>
