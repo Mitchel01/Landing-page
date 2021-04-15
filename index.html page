@@ -4,6 +4,15 @@
     <h1>Mitchel Rutendo Svisveni</h1>
   </head>
 <body>
+<a href="#"><img src="https://www.google.com/search?q=pictures+of+a+spinderman&tbm=isch&ved=2ahUKEwjDzafOu__vAhWKxuAKHfyvDa0Q2-cCegQIABAA&oq=pictures+of+a+spinderman&gs_lcp=CgNpbWcQDDoECCMQJzoCCAA6BggAEAUQHlCOP1jce2DJlgFoAHAAeAGAAbcFiAH6KZIBC
+"alt="spinder man picture"
+<p>Hobbies and Interests</p>
+     <ul>
+    <li>reading novels</li>
+    <li>researching about technology</li>
+    <li>playing computer games</li>
+     <li>listening to music</li>
+  </ul>
   <div class="flexbox-container"
        <div class="flexbox-item flexbox-item-1"></div>
    <div class="flexbox-item flexbox-item-2"></div>
