@@ -1,26 +1,113 @@
-flexbox-container {
-display: flex;
-justify-content: center;
-flex-direction: column;
-}
-.flexbox-item {
-width: 200px;
-margin: 100px;
-border: 20px solid #333;
-background-color:#800080;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;900&family=Raleway:wght@400;900&display=swap');
+
+body
+{
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
 }
 
-.flexbox-item-1 {
-min-height: 100px;
-flex-shring: 1;
+div
+{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-blend-mode: multiply;
 }
 
-.flexbox-item-2 {
-max-height: 200px;
-flex-grow: 5;
+h1 {
+  font-size: 40px;
+  margin: 0;
+  text-align: center;
+  line-height: .9;
+  text-shadow: 3px 4px 7px rgba(81,67,21,0.8);
 }
 
-.flexbox-item-3 {
-max-height: 300px;
-flex-grow: 5;
+.rotate {
+  transform: rotate(180deg);
+}
+
+.flexbox-item1
+{
+  background: rgb(104, 125, 192) ;
+  display: grid;
+  justify-content: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.flexbox-item2
+{
+  background: rgba(255, 0, 0, 0.397) url(https://media.wired.com/photos/5963bb8f9a706f225866c776/master/w_2560%2Cc_limit/Spiderman-TopArt.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.flexbox-item3
+{
+  background: rgba(0, 255, 0, 0.24) url(https://images-na.ssl-images-amazon.com/images/I/81bVhJMw9CL._SX300_.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.flexbox-item4
+{
+  background: rgba(255, 255, 0, 0.219) url(https://upload.wikimedia.org/wikipedia/en/2/21/Destroyed_in_Seconds_title.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.flexbox-item5
+{
+  background: rgba(192, 204, 255, 0.26) url(https://images-na.ssl-images-amazon.com/images/I/71Pe61X6VGL._SY445_.jpghttps://images-na.ssl-images-amazon.com/images/I/71Pe61X6VGL._SY445_.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.flexbox-item6
+{
+  background: rgba(192, 204, 255, 0.26) url(https://avatars.githubusercontent.com/u/74549925?v=4?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.caption
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.534);
+  color: #fff;
+  font-family: verdana;
+  padding: 20px;
+  font-size: 14px;
+  letter-spacing: 3px;
+}
+
+footer {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  padding: 3px;
+  background-color: rgb(104, 125, 192);
+  color: white;
+}
+
+@media only screen and (max-width: 450px) {
+ .caption
+  {
+    font-size: 15px;
+  }
 }
