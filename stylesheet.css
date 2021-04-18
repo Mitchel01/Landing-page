@@ -24,8 +24,7 @@ div
 
 .small-text {
   left: -150px;
-  bottom: -200px;
-  
+  bottom: -200px;  
 }
 
 h1 {
@@ -36,10 +35,12 @@ h1 {
   text-shadow: 3px 4px 7px rgba(81,67,21,0.8);
 }
 
+.container { 
+  margin: 0px;
+}
 
-.flexbox-item1
-{
-  background: rgb(104, 125, 192) ;
+.flexbox-item1 {
+  background: rgb(52, 108, 182) ;
   display: grid;
   justify-content: center;
   background-attachment: fixed;
@@ -55,33 +56,34 @@ h1 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  flex-grow: 4;
 }
 
-.flexbox-item3
-{
+.flexbox-item3 {
   background: rgba(0, 255, 0, 0.24) url(https://images-na.ssl-images-amazon.com/images/I/81bVhJMw9CL._SX300_.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover;  
+  flex-grow: 10;
 }
 
-.flexbox-item4
-{
+.flexbox-item4 {
   background: rgba(255, 255, 0, 0.219) url(https://upload.wikimedia.org/wikipedia/en/2/21/Destroyed_in_Seconds_title.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover;  
+  flex-grow: 10;
 }
 
-.flexbox-item5
-{
-  background: rgba(192, 204, 255, 0.26) url(https://images-na.ssl-images-amazon.com/images/I/71Pe61X6VGL._SY445_.jpghttps://images-na.ssl-images-amazon.com/images/I/71Pe61X6VGL._SY445_.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+.flexbox-item5 {
+  background: rgba(192, 204, 255, 0.26) url(https://d1csarkz8obe9u.cloudfront.net/embeddesigns/7aae26afb4adf28c0d4712b36ee9a325_embed.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover;  
+  flex-grow: 10;
 }
 
 .flexbox-item6
@@ -90,7 +92,8 @@ h1 {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover;  
+  flex-grow: 10;
 }
 
 .caption
@@ -105,6 +108,7 @@ h1 {
   padding: 20px;
   font-size: 14px;
   letter-spacing: 3px;
+  flex-grow: 10;
 }
 
 footer {
@@ -113,11 +117,6 @@ footer {
   padding: 3px;
   background-color: rgb(104, 125, 192);
   color: white;
+  flex-grow: 10;
 }
 
-@media only screen and (max-width: 450px) {
- .caption
-  {
-    font-size: 15px;
-  }
-}
