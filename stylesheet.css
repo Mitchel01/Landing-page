@@ -41,7 +41,7 @@ h1 {
 
 .flexbox-item1 {
   background: rgb(52, 108, 182) ;
-  display: grid;
+  display: column;
   justify-content: center;
   background-attachment: fixed;
   background-position: center;
