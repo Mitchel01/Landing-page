@@ -5,6 +5,8 @@ body
   margin: 0;
   padding: 0;
   font-family: 'Lato', sans-serif;
+  grid-template-columns: 2r 1fr 1fr;
+    grid-template-rows: 2fr 1fr 1fr;
 }
 
 div
@@ -41,7 +43,7 @@ h1 {
 
 .flexbox-item1 {
   background: rgb(52, 108, 182) ;
-  display: column;
+  display: grid;
   justify-content: center;
   background-attachment: fixed;
   background-position: center;
