@@ -5,8 +5,6 @@ body
   margin: 0;
   padding: 0;
   font-family: 'Lato', sans-serif;
-  grid-template-columns: 2r 1fr 1fr;
-    grid-template-rows: 2fr 1fr 1fr;
 }
 
 div
@@ -42,9 +40,10 @@ h1 {
 }
 
 .flexbox-item1 {
-  background: rgb(52, 108, 182) ;
-  display: grid;
-  justify-content: center;
+  background: rgb(52, 108, 182);
+  flex: 2 5 100px;
+  display: flex;
+  align-self: flex-start;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -53,44 +52,52 @@ h1 {
 
 .flexbox-item2
 {
-  background: rgba(255, 0, 0, 0.397) url(https://media.wired.com/photos/5963bb8f9a706f225866c776/master/w_2560%2Cc_limit/Spiderman-TopArt.jpg);
+  background: rgba(255, 0, 0, 0.397);
+  flex: 20 1 100px;
+  align-self: center;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  flex-grow: 4;
+ 
 }
 
 .flexbox-item3 {
-  background: rgba(0, 255, 0, 0.24) url(https://images-na.ssl-images-amazon.com/images/I/81bVhJMw9CL._SX300_.jpg);
+  background: rgba(0, 255, 0, 0.24);
+  flex: 10 1 100px;
+  align-self: center;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;  
-  flex-grow: 10;
 }
 
 .flexbox-item4 {
-  background: rgba(255, 255, 0, 0.219) url(https://upload.wikimedia.org/wikipedia/en/2/21/Destroyed_in_Seconds_title.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background: rgba(255, 255, 0, 0.219);
+  flex: 10 1 100px;
+  align-self: center;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;  
-  flex-grow: 10;
 }
 
 .flexbox-item5 {
-  background: rgba(192, 204, 255, 0.26) url(https://d1csarkz8obe9u.cloudfront.net/embeddesigns/7aae26afb4adf28c0d4712b36ee9a325_embed.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background: rgba(192, 204, 255, 0.26);
+  flex: 10 1 100px;
+  align-self: center;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;  
-  flex-grow: 10;
+  
 }
 
 .flexbox-item6
 {
-  background: rgba(192, 204, 255, 0.26) url(https://avatars.githubusercontent.com/u/74549925?v=4?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background: rgba(192, 204, 255, 0.26);
+  flex: 10 2 100px;
+  align-self: flex-end;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -100,7 +107,7 @@ h1 {
 
 .caption
 {
-  position: absolute;
+  position: center;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
